@@ -47,9 +47,12 @@ jobs:
           name: poduction file
           path: ./todo/build
 
+      #- name: Deploy to GitHub Pages
+       # uses: peaceiris/actions-gh-pages@v4
+        #if: github.ref == 'refs/heads/main'
+       # with:
+        #  github_token: ${{ secrets.GITHUB_TOKEN }} #this is the key of the access token
+         # publish_dir: ./todo/build
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/main'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} #this is the key of the access token
-          publish_dir: ./todo/build
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -9,6 +9,8 @@ jobs:
   # Build Job
   build:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
@@ -40,6 +42,8 @@ jobs:
     needs: build
     
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v3

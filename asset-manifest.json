@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/To-Do/static/css/main.334c1bb3.css",
-    "main.js": "/To-Do/static/js/main.68fba1a5.js",
-    "static/js/787.8eb42f38.chunk.js": "/To-Do/static/js/787.8eb42f38.chunk.js",
-    "index.html": "/To-Do/index.html",
-    "main.334c1bb3.css.map": "/To-Do/static/css/main.334c1bb3.css.map",
-    "main.68fba1a5.js.map": "/To-Do/static/js/main.68fba1a5.js.map",
-    "787.8eb42f38.chunk.js.map": "/To-Do/static/js/787.8eb42f38.chunk.js.map"
+    "main.css": "/pratham-mesh/To-Do-pb-gha/static/css/main.334c1bb3.css",
+    "main.js": "/pratham-mesh/To-Do-pb-gha/static/js/main.084d70bb.js",
+    "static/js/787.8eb42f38.chunk.js": "/pratham-mesh/To-Do-pb-gha/static/js/787.8eb42f38.chunk.js",
+    "index.html": "/pratham-mesh/To-Do-pb-gha/index.html",
+    "main.334c1bb3.css.map": "/pratham-mesh/To-Do-pb-gha/static/css/main.334c1bb3.css.map",
+    "main.084d70bb.js.map": "/pratham-mesh/To-Do-pb-gha/static/js/main.084d70bb.js.map",
+    "787.8eb42f38.chunk.js.map": "/pratham-mesh/To-Do-pb-gha/static/js/787.8eb42f38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.334c1bb3.css",
-    "static/js/main.68fba1a5.js"
+    "static/js/main.084d70bb.js"
   ]
 }
